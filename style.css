@@ -1,0 +1,103 @@
+:root{
+   --lighte-pink: #fdeeee;
+   --light-blue: #e5fafa;
+}
+@font-face {
+    font-family:Dosis-Medium ;
+    src: url(assets/font/Dosis-Medium.ttf);
+}
+@font-face {
+    font-family:HATTEN ;
+    src: url(assets/font/HATTEN.TTF);
+}
+@font-face {
+    font-family:impact ;
+    src: url(assets/font/impact.ttf);
+}
+@font-face {
+    font-family:Oswald-VariableFont ;
+    src: url(assets/font/Oswald-VariableFont_wght.ttf);
+}
+.container{
+    display: flex;
+    border-radius: 15%;
+}
+.left-div{
+    background-color: #fdeeee;
+    width: 30%;
+}
+.per-img{
+    border-radius: 50%;
+}
+.email{
+    display: flex;
+    margin-left: 12%;
+}
+.location{
+    display: flex;
+}
+.insta{
+    display: flex;
+    margin-left: 12%;
+}
+.git{
+    display: flex;
+    margin-left: 12%;
+}
+.img{
+    width: 10%;
+    height: 10%;
+}
+.img-loc{
+    width: 10%;
+    height: 10%;
+}
+.par{
+    font-family:impact ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 8%;
+    font: message-box;
+    cursor: pointer;
+}
+.location{
+    margin-left: 12%;
+}
+.info{
+    margin-top: 20%;
+}
+.person{
+    width: 20%;
+    height: 20%;
+}
+.per-img{
+    width: 156%;
+    margin-left: 58%;
+    margin-top: 20%;
+}
+.right-div{
+    background-color: #e5fafa;
+    width: 70%;
+}
+.about{
+    border-bottom: solid 6px;
+    border-color: #fdeeee;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.titr{
+    margin-left: 9%;
+    font-family: Oswald-VariableFont;
+}
+.par-ti{
+    margin-left: 9%;
+}
+.edu{
+    border-bottom: solid 6px;
+    border-color: #fdeeee;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.par-ti{
+    font-family:Dosis-Medium ;
+}
